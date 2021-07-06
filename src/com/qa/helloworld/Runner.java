@@ -11,9 +11,12 @@ public class Runner {
 //		printMsg("Sav", 30, 38.00f);
 //		printMsg("Ed", 9, 12.00f);
 //		printMsg("Jim", 3, 38.00f);
-		abc(354645675);
-		abc(245);
+//		abc(354645675);
+//		abc(245);
 //		sayHello("Sam");
+		System.out.println("step 1");
+		System.out.println(addTwoNumbers(10, 10));
+		System.out.println("step 2");
 
 	}
 
@@ -33,6 +36,12 @@ public class Runner {
 
 	public static void sayHello(String name) {
 		System.out.println("Hello " + name);
+	}
+
+	public static int addTwoNumbers(int number1, int number2) {
+		// body of our method
+		int ans = number1 + number2;
+		return ans;
 	}
 
 }
