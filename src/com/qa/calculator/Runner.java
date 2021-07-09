@@ -13,7 +13,7 @@ public class Runner {
 		
 		mulTwo(4,5);
 		
-		divTwo(8,2);
+		divTwo(2,8);
 	} 
 	public static void addTwo(int num1, int num2) {
 	
@@ -31,9 +31,13 @@ public class Runner {
 		System.out.println(result);
 	}
 	public static void divTwo(int num1, int num2) {
-		
+		if (num1 < num2) {
+			System.out.println("is not divisible");
+		}
+		else {
 		int result = num1 / num2;
-		System.out.println(result);
+		System.out.println("this is our result " + result);
+	}
 	}
 	
 }
